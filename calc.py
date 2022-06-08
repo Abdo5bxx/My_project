@@ -1,7 +1,7 @@
 calculator = True
 while calculator == True:
     fir_num = float(input("Enter the first Number: "))
-    op = input("Enter the operator (+, -, *, /): ")
+    op = input("Enter the operator (+, -, *, /, ^): ")
     sec_num = float(input("Enter the second number: "))
     
     i = 0
@@ -18,6 +18,9 @@ while calculator == True:
             print(result)
         elif op == "/":
             result = fir_num / sec_num
+            print(result)
+        elif op == "^":
+            result = fir_num ^ sec_num
             print(result)
         exit = input("Do you want to exit the program (y/n): ")
         if exit == "y":
