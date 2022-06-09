@@ -2,7 +2,7 @@ from math import *
 calculator = True
 while calculator == True:
     fir_num = float(input("Enter the first Number: "))
-    op = input("Enter the operator (+, -, *, /, ^): ")
+    op = input("Enter the operator (+, -, *, /, ^,sqrt): ")
     sec_num = float(input("Enter the second number: "))
     
     i = 0
